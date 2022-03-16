@@ -1,7 +1,7 @@
 //! A two player tic-tac-toe game to showcase some of
 //! the issues caught by DeepSource's Rust analyzer
 
-use std::{convert::identity as id, {fmt}};
+use std::{convert::identity as id, fmt};
 
 #[derive(Debug, PartialEq, Copy, Clone)]
 enum Player {
